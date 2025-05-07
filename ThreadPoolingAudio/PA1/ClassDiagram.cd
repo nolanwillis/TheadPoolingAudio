@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ThreadFramework::BannerBase" Collapsed="true">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQABAACAgAAAAAAAAAACAAAAEAAAAAAAgAEgAAAA=</HashCode>
+      <FileName>C:\code\keenan2024fall_csc562\instructor\Assignment\PA1\PA1_A\Framework\ThreadFramework.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileThread">
+    <Position X="1.25" Y="6.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAABQAAAAAAAEAABAABQCEAAAAAAAgBgAAAAAAA=</HashCode>
+      <FileName>FileThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KillThread">
+    <Position X="8.75" Y="6.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="KillThread::KeyPress" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>KillThread.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAEAAAAcAAAAAAAAGAAAAAAAAAkCAAAAAA=</HashCode>
+      <FileName>KillThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KillableBase">
+    <Position X="1.25" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="KillableBase::ThreadCount" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>KillableBase.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Struct Name="KillableBase::KillShare" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>KillableBase.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAIAgAAAAAAAIAAAQAAAAAAAAAAEAAAAAgAAAAAAA=</HashCode>
+      <FileName>KillableBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoordThread">
+    <Position X="6.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAQAAAAAAAEAAAAAAICEAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>CoordThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="FileCoordShare" Collapsed="true">
+    <Position X="3.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAAAAAAAAAAAAAAAAAAAAAAAAICAAgAAAAAAg=</HashCode>
+      <FileName>FileCoordShare.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_Framework">
+      <UniqueIdentifier>{f04c9286-e219-4fb7-b306-f9717e9aba86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Data">
+      <UniqueIdentifier>{2c008841-b957-4510-87b5-316ee3e6ec39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base">
+      <UniqueIdentifier>{63e6f9c4-5462-4c2f-8b36-dc960df1477d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Dist">
+      <UniqueIdentifier>{262a1abd-370a-48ae-a235-5fafc3690d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Dist\_Time">
+      <UniqueIdentifier>{db3f9a03-23c2-4753-a5a7-028ca9459d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Dist\_Time\include">
+      <UniqueIdentifier>{4b0eb250-0c88-4cde-abea-887b5c96f727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Dist\_Time\libs">
+      <UniqueIdentifier>{16deed7b-1ef0-4120-bdce-c01640d27565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Dist\_File">
+      <UniqueIdentifier>{0c9fbd9f-7558-46d1-a95c-0b31e65bd715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Dist\_File\include">
+      <UniqueIdentifier>{f982b529-dc59-4ee5-b122-598539a5930e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Dist\_File\libs">
+      <UniqueIdentifier>{116f9641-f02e-43ec-a345-0cbd0bd4c1d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Tests">
+      <UniqueIdentifier>{fe1fe064-fb03-4233-8186-f3ff5081a8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Threads">
+      <UniqueIdentifier>{66f82e4b-30eb-426a-a37e-3791e0cf0a58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Containers">
+      <UniqueIdentifier>{7e506b10-eb19-41a8-a11d-9fd2a02f5612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands">
+      <UniqueIdentifier>{e0c3bf52-8583-467a-99a6-625d7045aa85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Framework\__DO NOT MODIFY__">
+      <Filter>_Framework</Filter>
+    </None>
+    <None Include="ClassDiagram.cd">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\Dist\File\lib\File_DLL_X86Debug.dll">
+      <Filter>_Dist\_File\libs</Filter>
+    </None>
+    <None Include="..\Dist\File\lib\File_DLL_X86Debug.exp">
+      <Filter>_Dist\_File\libs</Filter>
+    </None>
+    <None Include="..\Dist\File\lib\File_DLL_X86Debug.pdb">
+      <Filter>_Dist\_File\libs</Filter>
+    </None>
+    <None Include="..\Dist\File\lib\File_DLL_X86Release.dll">
+      <Filter>_Dist\_File\libs</Filter>
+    </None>
+    <None Include="..\Dist\File\lib\File_DLL_X86Release.exp">
+      <Filter>_Dist\_File\libs</Filter>
+    </None>
+    <None Include="..\Dist\File\lib\File_DLL_X86Release.pdb">
+      <Filter>_Dist\_File\libs</Filter>
+    </None>
+    <None Include="..\Dist\Time\lib\Time_DLL_X86Debug.dll">
+      <Filter>_Dist\_Time\libs</Filter>
+    </None>
+    <None Include="..\Dist\Time\lib\Time_DLL_X86Debug.exp">
+      <Filter>_Dist\_Time\libs</Filter>
+    </None>
+    <None Include="..\Dist\Time\lib\Time_DLL_X86Debug.pdb">
+      <Filter>_Dist\_Time\libs</Filter>
+    </None>
+    <None Include="..\Dist\Time\lib\Time_DLL_X86Release.dll">
+      <Filter>_Dist\_Time\libs</Filter>
+    </None>
+    <None Include="..\Dist\Time\lib\Time_DLL_X86Release.exp">
+      <Filter>_Dist\_Time\libs</Filter>
+    </None>
+    <None Include="..\Dist\Time\lib\Time_DLL_X86Release.pdb">
+      <Filter>_Dist\_Time\libs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Framework\Framework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\ProjectSettings.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\ThreadFramework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="KillableBase.h">
+      <Filter>Source Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dist\File\include\File.h">
+      <Filter>_Dist\_File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dist\Time\include\AnimTime.h">
+      <Filter>_Dist\_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dist\Time\include\AnimTimer.h">
+      <Filter>_Dist\_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Test\TestData.h">
+      <Filter>_Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Test\_UnitTestConfiguration.h">
+      <Filter>_Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Test\UnitTestThread.h">
+      <Filter>_Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="KillThread.h">
+      <Filter>Source Files\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="FileThread.h">
+      <Filter>Source Files\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordThread.h">
+      <Filter>Source Files\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Source Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="FillCmd.h">
+      <Filter>Source Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayThread.h">
+      <Filter>Source Files\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveThread.h">
+      <Filter>Source Files\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Source Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularData.h">
+      <Filter>Source Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularIndex.h">
+      <Filter>Source Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="FinishedPlayingCmd.h">
+      <Filter>Source Files\Commands</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KillableBase.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\CoordTest.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\UnitTestThread.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\WaveTest.cpp">
+      <Filter>_Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="KillThread.cpp">
+      <Filter>Source Files\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="FileThread.cpp">
+      <Filter>Source Files\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordThread.cpp">
+      <Filter>Source Files\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="FillCmd.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayThread.cpp">
+      <Filter>Source Files\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveThread.cpp">
+      <Filter>Source Files\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularData.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularIndex.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="FinishedPlayingCmd.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Data\wave_0.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_1.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_2.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_3.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_4.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_5.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_6.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_7.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_8.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_9.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_10.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_11.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_12.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_13.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_14.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_15.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_16.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_17.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_18.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_19.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_20.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_21.wav">
+      <Filter>_Data</Filter>
+    </Media>
+    <Media Include="..\Data\wave_22.wav">
+      <Filter>_Data</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Dist\File\lib\File_DLL_X86Debug.lib">
+      <Filter>_Dist\_File\libs</Filter>
+    </Library>
+    <Library Include="..\Dist\File\lib\File_DLL_X86Release.lib">
+      <Filter>_Dist\_File\libs</Filter>
+    </Library>
+    <Library Include="..\Dist\Time\lib\Time_DLL_X86Debug.lib">
+      <Filter>_Dist\_Time\libs</Filter>
+    </Library>
+    <Library Include="..\Dist\Time\lib\Time_DLL_X86Release.lib">
+      <Filter>_Dist\_Time\libs</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
